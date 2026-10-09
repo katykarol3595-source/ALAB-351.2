@@ -18,5 +18,6 @@ elif operation == "/":
     if num2 != 0:
         results  = num1 / num2
         print(f"{num1} / {num2} = {results}")
-    else print("Error: Division by 0 is not allowed.")
-else print("Error: Unsuported operation symbol entered.")
+    else:
+        print("Error: Division by 0 is not allowed.")
+else: print("Error: Unsuported operation symbol entered.")
